@@ -16303,7 +16303,10 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>**Answer: **</p>
+<p>I picked Gaussian Naive Bayes, Adaboost and Random Forest classifiers.
+Gaussian Naive Bayes is very quick method and can be used to identify spam in email for example. The strength of the model is for text classification. The model might not perform well for tabular data. The reason I picked is to demonsrate how well or bad it performs on tabular data like one we have.
+Adaboost is used for customer churn prediction. The strength of Adaboost is relatively quick, accurate and avoids overfitting. For the weeakness, finding right weak learner in Adaboost might be tricky. Adaboost should work well for complex tabular data we have here.
+Finally, Random Forest classifier is known to be used in fraud detection. The strength of Fandom Forest is that it can handle categorical and numerical tabular data well. The weakness is computational time. Random Forest should perform well for the complex tabular data as well.</p>
 
 </div>
 </div>
@@ -16806,7 +16809,13 @@ In the naive model, accuracy score wass 0.2478 and F-score was  0.2917. I made a
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I believe that age, occupation, education level, work class, and sex would be five features.</p>
+<p>I believe that age, occupation, education level, work class, and sex would be five features.
+Justifications of my choices are as follows:
+Age: young people tend to make less money.
+Occupation: type of job is quite important to determine income.
+Education level: it is known that people with higher education make more money.
+work class: people with hourly wage make less money than salary based.
+sex: male workers make more money than female workers.</p>
 
 </div>
 </div>
